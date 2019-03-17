@@ -1,0 +1,500 @@
+*{
+	padding:0;
+	margin:0;
+}
+/*================================= STYLING FOR NAVBAR  ======================================*/
+.main-container{
+	position: relative;
+}
+.page1{
+	  background-image: url(images/home2.jpg);
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  position: relative;
+}
+#whole-content{
+	background-image: linear-gradient(120deg,rgba(0, 27, 58,0.8) 50%, rgba(0, 27, 58,0) );
+	width: 100%;
+	height: 100%;
+
+	overflow: hidden;
+}
+
+.navbar{
+	height:4%;
+	position: absolute;
+    background-image: linear-gradient(120deg,rgba(13, 23, 104,0.8) 50%, rgba(13, 23, 104,0) );
+	width: cover;
+	margin-left: 28px;
+}
+a {
+  text-decoration: none;
+}
+
+.navbar-header{
+	
+	position: absolute;
+	float:left;
+	display: inline-block;
+	color: white;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+ .navbar-header a{
+ 	position: absolute;
+	color: white;
+	float: left;
+	display:inline-block;
+	margin-left: 17px;
+ }
+.navbar-header a span img{
+	width:67px;
+	height:80px;
+}
+
+.navbar-header a p{
+	position: absolute;
+	float: right;
+	display:inline-block;
+    color: white;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+#navbar{
+	margin-left: 40px;
+}
+#navbar ul{
+	position: relative;
+	list-style-type: none;
+	margin-left: 390px;
+	margin-top: 48px;
+	display: inline-block;
+    color: white;
+}
+#navbar ul li{
+    
+	float: right;
+	display: inline-block;
+	padding: 9px 12px 9px 9px;
+}
+#navbar ul li a{
+	color: white;
+}
+#navbar ul li:hover{
+	border-bottom:2px solid orange;cursor: pointer;
+	transform: linear ;
+}
+/*======================================== page 1===========================================*/
+
+.main-content{
+	position: relative;
+	padding-top: 100px;
+	padding-left: 100px;
+	box-sizing: border-box;
+	margin-top: 6%;
+	color: white;
+	line-height: 22px;
+}
+.main-content .content-para{
+
+	padding:10px 10px 10px 10px; 
+	margin-bottom: 18px;
+    width: 50%;
+	height: 70%;
+     margin-top: 10px;
+     word-spacing: 7px;
+}
+.main-content .content-para h3,p{
+	padding-bottom: 17px;
+}
+.main-content .content-btn .btn1{
+   
+	padding:auto auto;
+	border-radius: 12px 10px 10px 12px;
+	border:2px solid yellow;
+    background-image: linear-gradient(to right,rgba(255, 220, 0,0.96) 49%, rgba(255, 220, 0,0.3) );
+    color: white;
+    font-weight: 20px;
+    font-size: 20px;
+    width:140px;
+     height: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.main-content .content-btn .btn2{
+
+	padding:auto auto;
+	border-radius: 12px 10px 10px 12px;
+	border:2px solid white;
+    background-image: linear-gradient(to right,rgba(13, 8, 99,0.8) 60%, rgba(44, 34, 147,0.5) );
+    color: white;
+    font-weight: 20px;
+    font-size: 20px;
+    width:140px;
+    height: 36px;
+    text-align: center;
+      margin-bottom: 10px;
+}
+.main-content .content-btn .btn2:hover{
+	 background-image: linear-gradient(to right,rgba(33, 58, 212,0.4) 50%, rgba(33, 58, 212,0.6) );
+	 font-weight: 22px; cursor: pointer;
+}
+.main-content .content-btn .btn1:hover{
+	 background-image: linear-gradient(to right,rgba(255, 140, 17,0.4) 50%, rgba(255, 140, 17,0.6) );
+	 	 font-weight: 22px; cursor: pointer;
+}
+
+
+.main-content .content-contact{
+		position:relative;
+	margin-top: 18px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+
+
+}
+
+.main-content .content-contact p{
+	float:left;
+	padding-right: 6px;
+	margin-top: 10px; 
+	padding-top: 6px;
+	padding-left: 6px;
+	width: 90px;
+	height: 19px;margin-bottom: 90px;
+	border-radius:5px 5px 5px 5px;
+	border:1px solid white;
+}
+
+.nav-handler{ 
+	position: absolute;
+	display: block;
+	width: 14px;
+	height: 14px;
+	margin-left: 50%;
+	margin-top: 4%;
+	border-left: 3px solid white;
+	border-bottom:3px solid white;
+	scroll-behavior: smooth;
+    transform: rotate(-45deg);
+    
+}
+.nav-handler:hover{
+	width: 15px;
+	height: 15px;
+	border-left: 4px solid white;
+	border-bottom:4px solid white;
+	cursor: pointer;
+	
+}
+/*==================================  PAGE 2 ================================================*/
+#page2{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+    
+}
+.container-page2 .content-head-page2{
+	position: absolute;
+	width: 100%;
+	height: 15%;
+	padding: 15px 10px 10px 10px;
+
+
+
+}
+.container-page2 .content-head-page2 h3{
+	position: absolute;
+     float :left;
+     padding-top: 25px;
+     padding-left: 80px;
+     font-size: 30px;
+     display: inline-block;	
+      color: rgba(0, 49, 95,1);
+}
+.container-page2 .content-head-page2 #has-p{
+	position: absolute;
+     float :left;
+     padding-left: 75%;
+     display: inline-block;	
+}
+
+.container-page2 .content-head-page2 #has-p p{
+     float :left;
+     display: inline-block;	
+     padding-top: 25px;
+     padding-left: 4px;
+     font-size: 10px;
+}
+.container-page2 .content-head-page2 #has-p img{
+    width: 50px;
+    height: 60px;
+    float: left;	
+    display: inline-block;
+}
+
+.container-page2 .content-body-page2 .content1-of-page2{
+	position: absolute;
+    float: left;
+    display: inline-block;
+	margin-top: 13%;
+	margin-left: 7%;
+	margin-bottom: 10%;
+    height: 68%;
+    width: 40%;
+    background-image: url(images/tree2.jpg);
+    border-radius: 12px 12px 12px 12px;
+     box-shadow: 9px 9px 9px rgba(29, 142, 205,0.6);
+    background-repeat: no-repeat;
+}
+.container-page2 .content-body-page2 .content1-of-page2:hover{
+	box-shadow: 10px 10px 10px rgba(29, 142, 205,0.6);
+	opacity: 0.9;
+}
+ .container-page2 .content-body-page2 .content1-of-page2 .for-gradient{
+      	background-image: linear-gradient(2deg,rgba(0, 27, 58,0.8) 30%, rgba(0, 27, 58,0) );
+      	height: 100%;
+ }
+
+.container-page2 .content-body-page2 .content2-of-page2{
+	position: absolute;
+	
+	margin-top: 15%;
+	margin-left: 60%;
+    height: 60%;
+    width: 30%;
+    float:left;
+    display: inline-block;
+ box-shadow: 9px 9px 9px rgba(29, 142, 205,0.6);
+}
+.container-page2 .content-body-page2 .content2-of-page2:hover{
+	box-shadow: 10px 10px 10px rgba(29, 142, 205,0.6);
+	opacity: 0.9;
+}
+.container-page2 .content-body-page2 .content1-of-page2 img{
+	width: 400px;
+	height: 400px;
+}
+
+.container-page2 .content-body-page2 .content1-of-page2 p{
+	padding-top:60%;
+	padding-left: 20%;
+	color:white;
+	font-size: 33px;
+	font-weight: 70px;
+	word-spacing: 6px;
+
+}
+.container-page2 .content-body-page2 .content1-of-page2 button{
+	 margin-left:76px;
+
+}
+.container-page2 .content-body-page2 .content1-of-page2 .btn1{
+   
+	padding:auto auto;
+	border-radius: 16px 16px 16px 16px;
+	border:2px solid white;
+    background-image: linear-gradient(to right,rgba(255, 220, 0,0.96) 49%, rgba(255, 220, 0,0.3) );
+    color: white;
+    font-weight: 20px;
+    font-size: 20px;
+    width:140px;
+     height: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container-page2 .content-body-page2 .content1-of-page2 .btn2{
+
+	padding:auto auto;
+	border-radius: 16px 16px 16px 16px; 
+	border:2px solid white;
+   background-image: linear-gradient(to right,rgba(235, 200, 0,0.96) 49%, rgba(235, 200, 0,0.3) );
+    color: white;
+    font-weight: 20px;
+    font-size: 20px;
+    width:140px;
+    height: 36px;
+    text-align: center;
+      margin-bottom: 10px;
+}
+.container-page2 .content-body-page2 .content1-of-page2 .btn2:hover{
+	 background-image: linear-gradient(to right,rgba(255, 140, 17,0.4) 50%, rgba(255, 140, 17,0.6) );
+	 	 font-weight: 22px; cursor: pointer;
+	 	 border:2px solid orange;
+}
+.container-page2 .content-body-page2 .content1-of-page2 .btn1:hover{
+	 background-image: linear-gradient(to right,rgba(255, 140, 17,0.4) 50%, rgba(255, 140, 17,0.6) );
+	 	 font-weight: 22px; cursor: pointer;
+	 	 border:2px solid orange;
+}
+
+.container-page2 .content-body-page2 .content2-of-page2 #img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9,
+   #img10,#img11,#img12,#img13,#img14,#img15,#img16{
+    
+     float:left;
+     display: inline-block;
+     width: 25%;
+     height: 25%;
+  
+}
+.container-page2 .content-body-page2 .content2-of-page2 img{
+	 width:100%;
+	 height: 100%;
+
+}
+ .container-page2 .content-body-page2 .content2-of-page2 .content2-page2-contact{
+        position: absolute;
+      	background-image: linear-gradient(3deg,rgba(0, 27, 58,0.8) 30%, rgba(0, 27, 58,0) );
+      	height: 100%;
+      	width: 100%;
+ }
+
+.container-page2 .content-body-page2 .content2-of-page2 .content2-page2-contact{
+      position: absolute;
+	
+}
+
+
+.container-page2 .content-body-page2 .content2-of-page2 .for-gradient .content2-page2-contact p{
+	padding-top:66%;
+	padding-left: 13%;
+	color: white;
+	font-size: 33px;
+	font-weight: 70px;
+	word-spacing: 5px;
+}
+.container-page2 .content-body-page2 .content2-of-page2 .for-gradient .content2-page2-contact button{
+	 margin-left:66px;
+
+}
+.container-page2 .content-body-page2 .content2-of-page2 .for-gradient .content2-page2-contact .btn1{
+   
+	padding:auto auto;
+	border-radius: 16px 16px 16px 16px;
+	border:2px solid white;
+    background-image: linear-gradient(to right,rgba(255, 220, 0,0.96) 49%, rgba(255, 220, 0,0.3) );
+    color: white;
+    font-weight: 20px;
+    font-size: 20px;
+    width:120px;
+     height: 32px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container-page2 .content-body-page2 .content2-of-page2 .for-gradient .content2-page2-contact .btn2{
+
+	padding:auto auto;
+	border-radius: 16px 16px 16px 16px; 
+	border:2px solid white;
+   background-image: linear-gradient(to right,rgba(235, 200, 0,0.96) 49%, rgba(235, 200, 0,0.3) );
+    color: white;
+    font-weight: 20px;
+    font-size: 20px;
+   width:120px;
+     height: 32px;
+    text-align: center;
+      margin-bottom: 10px;
+}
+.container-page2 .content-body-page2 .content2-of-page2 .for-gradient .content2-page2-contact .btn2:hover{
+	 background-image: linear-gradient(to right,rgba(255, 140, 17,0.4) 50%, rgba(255, 140, 17,0.6) );
+	 	 font-weight: 22px; cursor: pointer;
+	 	 border:2px solid orange;
+}
+.container-page2 .content-body-page2 .content2-of-page2 .for-gradient .content2-page2-contact .btn1:hover{
+	 background-image: linear-gradient(to right,rgba(255, 140, 17,0.4) 50%, rgba(255, 140, 17,0.6) );
+	 	 font-weight: 22px; cursor: pointer;
+	 	 border:2px solid orange;
+}
+/*rgb(255, 252, 229)*/
+/*==================================== PAGE 3 ==============================================*/
+#page3{
+	background-color: rgb(255, 252, 229);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	margin-top: 51%;
+}
+
+#page3 .content-head-page3{
+	width: 100%;
+	height: 15%;
+	padding: 15px 10px 10px 10px;
+}
+
+#page3 .content-head-page3 h3{
+	font-size: 30px;
+	font-size: 30px;
+   color:rgba(0, 27, 58,0.9);
+   padding-top:13px;
+   padding-bottom: 15px;
+   margin-left: 8%;
+   margin-top: 2%;
+   margin-bottom: 10px;
+}
+
+#page3 .content-body-page3 {
+	position: absolute;
+	margin-left: 12%;
+	padding-right: 100px;
+	height: 70%;
+	width: 85%;
+	 float: left;
+    display: inline-block;
+    padding-top: 55px;
+    padding-bottom: 10px;
+}
+
+#page3 .content-body-page3 .img1,
+#page3 .content-body-page3 .img2,
+#page3 .content-body-page3 .img3,
+#page3 .content-body-page3 .img4,
+#page3 .content-body-page3 .img5,
+#page3 .content-body-page3 .img6,
+#page3 .content-body-page3 .img7{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 24px;
+     width: 18%;
+     height: 23%;
+     float: left;
+     display: inline-block;
+     border: 1px solid white;
+      box-shadow: 9px 9px 9px rgba(29, 142, 205,0.3);
+}
+#page3 .content-body-page3 .img1:hover,
+#page3 .content-body-page3 .img2:hover,
+#page3 .content-body-page3 .img3:hover,
+#page3 .content-body-page3 .img4:hover,
+#page3 .content-body-page3 .img5:hover,
+#page3 .content-body-page3 .img6:hover,
+#page3 .content-body-page3 .img7:hover{
+     width: 18%;
+     height: 23%;
+      box-shadow: 10px 10px 10px rgba(29, 142, 205,0.6);
+      opacity: 0.9;
+}
+#page3 .content-body-page3 img{
+   
+	height: 100%;
+	width: 100%;
+}
+
+#page3 .content-body-page3 .img1 p,
+#page3 .content-body-page3 .img2 p,
+#page3 .content-body-page3 .img3 p,
+#page3 .content-body-page3 .img4 p,
+#page3 .content-body-page3 .img5 p,
+#page3 .content-body-page3 .img6 p,
+#page3 .content-body-page3 .img7 p{
+	position: absolute;
+	font-size: 20px;
+	font-size: 20px;
+   color:rgba(0, 27, 58,0.9);
+   margin-left:5%;
+   margin-top: 1%;
+   
+}
